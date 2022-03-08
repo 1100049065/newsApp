@@ -1,0 +1,302 @@
+https://newsapi.org/v2/top-headlines?apiKey=b495020c1c4e4c429c8774341ce30596&q=cricket
+
+b495020c1c4e4c429c8774341ce30596
+
+var url = 'https://newsapi.org/v2/everything?' +
+          'q=Apple&' +
+          'from=2022-02-15&' +
+          'sortBy=popularity&' +
+          'apiKey=API_KEY';
+
+var req = new Request(url);
+
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
+Example response
+{
+"status": "ok",
+"totalResults": 1379,
+"articles": [
+{
+-"source": {
+"id": "wired",
+"name": "Wired"
+},
+"author": "Parker Hall",
+"title": "Jabra's Elite 4 Active Offer Great Bang for Your Buck",
+"description": "Durable noise-canceling earbuds are cheaper than ever, and these are some of the best around.",
+
+// 20220228181146
+// https://newsapi.org/v2/top-headlines?country=in&category=politics&apiKey=b495020c1c4e4c429c8774341ce30596&page=$%7Bthis.state.page
+
+
+
+
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "The Indian Express"
+        },
+        "author": "Express Web Desk",
+        "title": "Russia-Ukraine crisis Live: At least 102 civilians died in Ukraine, 304 injured, says UN rights boss - The Indian Express",
+        "description": "Russia Ukraine War News Today, World War 3 News Updates: Ukraine's Interior Ministry on Sunday said as many as 352 Ukrainian civilians, including 14 children, have been killed during Russia's invasion.",
+        "url": "https://indianexpress.com/article/world/ukraine-russia-war-putin-zelenskyy-kyiv-invasion-indian-students-live-updates-7792696/",
+        "urlToImage": "https://images.indianexpress.com/2022/02/2022-02-27T174644Z_1401081827_RC2ESS9QM6G7_RTRMADP_3_UKRAINE-CRISIS-CYPRUS-PROTESTS.jpg",
+        "publishedAt": "2022-02-28T10:27:17Z",
+        "content": "People attend an anti-war protest outside the Russian Embassy in Bogota, Colombia, on Saturday. (Photo: Reuters)\r\nStudents stuck at Poland border, India looks at Budapest route\r\nWith hundreds of Indi… [+1761 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Indian Express"
+        },
+        "author": "Express Web Desk",
+        "title": "Manipur Assembly Elections Live: Violence mars first phase of Manipur polls; 48.88% voter turnout recorded till 1pm - The Indian Express",
+        "description": "Manipur Election Live, Manipur Voting Percentage Today Live Updates: : As many as 173 candidates are in the fray with 12,09,439 voters expected to exercise their franchise.",
+        "url": "https://indianexpress.com/elections/manipur-2022-assembly-elections-live-updates-n-biren-singh-7793992/",
+        "urlToImage": "https://images.indianexpress.com/2022/02/Manipur-CM.jpg",
+        "publishedAt": "2022-02-28T10:24:52Z",
+        "content": "Polling in the first phase of assembly elections in Manipur began at 7 AM on Monday in 38 constituencies spread across five districts with strict adherence to Covid-19 protocols.\r\nAs many as 12,09,43… [+668 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "Priya Kumari",
+        "title": "Xiaomi 11T Pro 5G price on Amazon: Get whopping 20% discount, other offers too - HT Tech",
+        "description": "Check discount, exchange offer by Amazon on Xiaomi 11T Pro 5G. Know the latest price here.",
+        "url": "https://tech.hindustantimes.com/mobile/news/xiaomi-11t-pro-5g-price-on-amazon-get-whopping-20-discount-other-offers-too-71646038793024.html",
+        "urlToImage": "https://images.hindustantimes.com/tech/img/2022/02/28/1600x900/Untitled_design_-_2022-02-28T142823.034_1646038865074_1646038882062.jpg",
+        "publishedAt": "2022-02-28T09:04:59Z",
+        "content": "From affordable to premium smartphones, there are a lot of options to choose from. Some of the things you need to consider before buying any smartphone are its price and features. Getting to buy a go… [+2989 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Devdiscourse"
+        },
+        "author": "Devdiscourse News Desk",
+        "title": "Two distant galaxies appear to overlap in latest Hubble image - Devdiscourse",
+        "description": "Read more about Two distant galaxies appear to overlap in latest Hubble image on Devdiscourse",
+        "url": "https://www.devdiscourse.com/article/science-environment/1941096-two-distant-galaxies-appear-to-overlap-in-latest-hubble-image",
+        "urlToImage": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/28_02_2022_13_57_51_8175628.jpg?width=920&format=jpeg",
+        "publishedAt": "2022-02-28T08:40:02Z",
+        "content": "The twin galaxies NGC 4496A and NGC 4496B appear to overlap in a new image shared by the European Space Agency (ESA) and captured by the NASA/ESA Hubble Space Telescope.\r\nDespite their side-by-side a… [+1227 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "TIMESOFINDIA.COM",
+        "title": "Ukraine crisis: Rijiju will go to Slovakia, Puri to Hungary, Scindia to look at Romania & Moldova, VK Sin - Times of India",
+        "description": "India News: The government has decided that Union ministers Hardeep Singh Puri, Jyotiraditya Scindia, Kiren Rijiju and Gen (retd) VK Singh will be travelling to n",
+        "url": "https://timesofindia.indiatimes.com/india/ukraine-crisis-rijiju-will-go-to-slovakia-puri-to-hungary-scindia-to-look-at-romania-moldova-vk-singh-to-be-at-poland-to-manage-evacuation/articleshow/89891743.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-89891935,width-1070,height-580,imgsize-39712,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2022-02-28T08:31:00Z",
+        "content": "Ukraine crisis: Rijiju will go to Slovakia, Puri to Hungary, Scindia to look at Romania &amp; Moldova, VK Singh to be at Poland to manage evacuation\r\n<ul><li>News</li>\r\n<li>India News</li>\r\n<li>Ukrai… [+152 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "Himani Jha",
+        "title": "Forget Microsoft Windows 11! Here is the big reason why - HT Tech",
+        "description": "Microsoft Windows 11 successor? Already? The tech giant will start working on the development from March 2022.",
+        "url": "https://tech.hindustantimes.com/tech/news/forget-microsoft-windows-11-here-is-the-big-reason-why-71646036608363.html",
+        "urlToImage": "https://images.hindustantimes.com/tech/img/2022/02/28/1600x900/Untitled_design_-_2022-02-11T124934.597_1644564944243_1646036691897.jpg",
+        "publishedAt": "2022-02-28T08:26:19Z",
+        "content": "Microsoft Windows 11 was rolled out just a few years ago and surprisingly Microsoft is already gearing up to bring its successor with new design elements and features! The tech giant will kickstart d… [+1738 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "ETMarkets.com",
+        "title": "Madhavi Puri Buch appointed as Sebi chairperson - Economic Times",
+        "description": "Buch will succeed Ajay Tyagi, whose five-year term comes to an end in February.",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/madhavi-puri-buch-appointed-as-sebi-chairperson/articleshow/89891668.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-89891969,width-1070,height-580,imgsize-1642002,overlay-etmarkets/photo.jpg",
+        "publishedAt": "2022-02-28T08:21:00Z",
+        "content": "NEW DELHI: Madhabi Puri Buch has been appointed as Sebi chairperson for an initial period of three years.\r\nBuch is a former whole-time member of Sebi.\r\nBuch will succeed Ajay Tyagi, whose five-year t… [+804 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "Zarafshan Shiraz",
+        "title": "Liver disease: Stages, symptoms, lifestyle changes to adapt and prevent it - Hindustan Times",
+        "description": "All the stages of the liver disease or fatty liver are associated with increased risk of developing cardiovascular disease such as heart attack and stroke before the liver failure occurs. Doctors share insights on its stages, symptoms and lifestyle changes on…",
+        "url": "https://www.hindustantimes.com/lifestyle/health/liver-disease-stages-symptoms-lifestyle-changes-to-adapt-and-prevent-it-101646032561182.html",
+        "urlToImage": "https://images.hindustantimes.com/img/2022/02/28/1600x900/FMm5HN5XMAU6BR5_1646032931623_1646032947581.jpg",
+        "publishedAt": "2022-02-28T07:54:06Z",
+        "content": "Apart from removing toxins and other chemical waste products from the blood, the liver is also responsible for continuously filtering blood that circulates through the body and converting nutrients a… [+9545 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "ThePrint"
+        },
+        "author": null,
+        "title": "Body image issues increase risk of complications post breast reconstruction surgery: Study - ThePrint",
+        "description": "Pennsylvania [US], February 28 (ANI): Plastic or cosmetic surgery is the technical name for a procedure undertaken by a person for health reasons or for accentuating their looks. While some undergo surgeries like Mastectomy to prevent the risk of cancer in br…",
+        "url": "https://theprint.in/health/body-image-issues-increase-risk-of-complications-post-breast-reconstruction-surgery-study/851594/",
+        "urlToImage": null,
+        "publishedAt": "2022-02-28T07:30:12Z",
+        "content": "Pennsylvania [US], February 28 (ANI): Plastic or cosmetic surgery is the technical name for a procedure undertaken by a person for health reasons or for accentuating their looks. While some undergo s… [+3816 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "Reuters",
+        "title": "Russian delegation ready for talks with Ukraine in Belarus: Report - Hindustan Times",
+        "description": "Kremlin spokesperson Dmitry Peskov said the Russian delegation included officials from the foreign and defence ministries and President Vladimir Putin's office. | World News",
+        "url": "https://www.hindustantimes.com/world-news/russian-delegation-ready-for-talks-with-ukraine-in-belarus-report-101645947159812.html",
+        "urlToImage": "https://images.hindustantimes.com/img/2022/02/27/1600x900/russia_ukraine_conflict_peace_talks_in_belarus_1645947413036_1645947413197.jpg",
+        "publishedAt": "2022-02-28T07:15:00Z",
+        "content": "A Russian delegation has arrived in Belarus for talks with Ukraine, a Kremlin spokesperson was quoted by the Ifax news agency as saying on Sunday, the first negotiations since Russia started its inva… [+263 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "News18"
+        },
+        "author": "News Desk",
+        "title": "‘Police Used Chilli, Pepper Sprays’: Indian Students Allege Assault by Ukrainian Forces; Ambassador Igor Po - News18",
+        "description": "In a video, a man in uniform is seen kicking a person as he walks hurriedly along with others to cross the road with his suitcase.",
+        "url": "https://www.news18.com/news/india/police-used-chilli-pepper-sprays-indian-students-allege-assault-by-ukrainian-forces-ambassador-igor-polikha-defends-use-of-force-4818227.html",
+        "urlToImage": "https://images.news18.com/ibnlive/uploads/2022/02/ukraine-border-1-164603168416x9.jpg",
+        "publishedAt": "2022-02-28T07:12:00Z",
+        "content": "As the Ukraine-Russia crisis intensifies with President Vladimir Putin putting nuclear forces on alert, several students fleeing Kharkiv and Kyiv (Kiev), the Ukrainian capital, have alleged assault a… [+3404 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "etimes.in",
+        "title": "Amitabh Bachchan’s latest tweet leaves fans worried about his health - Times of India",
+        "description": "Amitabh Bachchan is an avid social media user and actively uses Twitter to chat with his millions of followers. On",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/amitabh-bachchans-latest-tweet-leaves-fans-worried-about-his-health/articleshow/89889039.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-89889145,width-1070,height-580,overlay-toi_sw,pt-32,y_pad-40,resizemode-75,imgsize-35608/89889145.jpg",
+        "publishedAt": "2022-02-28T07:02:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NDTV News"
+        },
+        "author": null,
+        "title": "Russia's Ruble Tanks 30% As Sanctions Over Ukraine Invasion Hit Economy - NDTV",
+        "description": "Russia's ruble plunged nearly 30 per cent against the dollar Monday after world powers imposed fresh, harsher sanctions on Moscow over its invasion of Ukraine.",
+        "url": "https://www.ndtv.com/world-news/russias-ruble-tanks-30-as-sanctions-over-ukraine-invasion-hit-economy-2793774",
+        "urlToImage": "https://c.ndtvimg.com/2022-02/va7b5lio_ukraine-ruble_625x300_28_February_22.jpg",
+        "publishedAt": "2022-02-28T07:01:00Z",
+        "content": "G7 has warned of \"further steps\" if Russia did not cease its operation in Ukraine\r\nHong Kong: Russia's ruble plunged nearly 30 per cent against the dollar Monday after world powers imposed fresh, har… [+774 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NDTV News"
+        },
+        "author": null,
+        "title": "Ranveer Singh's Sunday With In-Laws Included This South Indian Sweet From Bengaluru - NDTV Food",
+        "description": "Ranveer Singh and Deepika Padukone are spending some time at Deepikas parents' place in Bengaluru, and Ranveer took this opportunity to enjoy a regional delicacy.",
+        "url": "https://food.ndtv.com/food-drinks/ranveer-singhs-sunday-with-in-laws-includes-this-south-indian-sweet-from-bengaluru-2794048",
+        "urlToImage": "https://c.ndtvimg.com/2022-01/4l60idv_ranveer-singh_625x300_05_January_22.jpg",
+        "publishedAt": "2022-02-28T07:00:09Z",
+        "content": "Ranveer Singh is a man of many hobbies, from being an athlete who plays football and basketball to being a foodie who loves to eat desi food and 'fangirl' over his fellow actors' meals. On top of it,… [+1648 chars]"
+      },
+      {
+        "source": {
+          "id": "espn-cric-info",
+          "name": "ESPN Cric Info"
+        },
+        "author": "ESPNcricinfo staff",
+        "title": "Mayank Agarwal named new Punjab Kings captain - ESPNcricinfo",
+        "description": "\"We want to create a strong foundation for the future with Mayank at the helm,\" says head coach Anil Kumble",
+        "url": "https://www.espncricinfo.com/story/ipl-2022-mayank-agarwal-named-new-punjab-kings-captain-1303058",
+        "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/328200/328209.6.jpg",
+        "publishedAt": "2022-02-28T06:56:15Z",
+        "content": "News\"We want to create a strong foundation for the future with Mayank at the helm,\" says head coach Anil Kumble"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "Priya Kumari",
+        "title": "Poco M4 Pro launch today at 7PM; Here is all you need to know about the phone - HT Tech",
+        "description": "Poco M4 Pro will be launched in India today at 7PM on Flipkart. The price of the phone is not yet known, however, you can check camera, display and other specs here.",
+        "url": "https://tech.hindustantimes.com/mobile/news/poco-m4-pro-launch-today-at-7pm-here-is-all-you-need-to-know-about-the-phone-71646030758750.html",
+        "urlToImage": "https://images.hindustantimes.com/tech/img/2022/02/28/1600x900/FMgDWw6agAIezpQ_1646030846518_1646030878049.jpg",
+        "publishedAt": "2022-02-28T06:54:17Z",
+        "content": "Smartphone brand Poco is all set to launch Poco M4 Pro in India today, February 28, 2022 at 7 PM on Flipkart. It can be noted that Poco has recently launched Poco M4 Pro 5G in the country and now the… [+2539 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NDTV News"
+        },
+        "author": "Agence France-Presse",
+        "title": "Russia Facing FIFA World Cup Exile After \"Unacceptable\" FIFA Plan - NDTVSports.com",
+        "description": "Russia have been ordered by FIFA to play home international matches at neutral venues where their national flag and anthem would be banned.",
+        "url": "https://sports.ndtv.com/cricket/russia-facing-fifa-world-cup-exile-after-unacceptable-fifa-plan-2793978",
+        "urlToImage": "https://c.ndtvimg.com/2022-02/foidhd4_russia-football-afp_650x400_28_February_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+        "publishedAt": "2022-02-28T06:46:00Z",
+        "content": "Russia's future in the World Cup teetered on a knife-edge Monday after FIFA plans to allow them to play on neutral territory were dismissed as \"unacceptable\" by rivals, plunging the qualifying proces… [+4930 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBCTV18"
+        },
+        "author": "CNBCTV18.com",
+        "title": "India Market LIVE Updates Sensex, Nifty50 off day's lows as market recovers most of initial losses; VIX surges - CNBCTV18",
+        "description": "Stock Market LIVE Updates: Indian equity benchmarks Sensex and Nifty50 started the holiday-truncated week on a negative note, amid weakness across most other Asian markets as investors remained cautious on newsflow on the Russia-Ukraine conflict. Losses in fi…",
+        "url": "https://www.cnbctv18.com/market/stocks/stock-market-news-live-updates-bse-sensex-nse-nifty50-bank-nifty-sgx-russia-ukraine-war-nuclear-tension-india-gdp-data-crude-oil-bitcoin-gold-rate-omicron-covid-12649002.htm",
+        "urlToImage": "https://images.cnbctv18.com/wp-content/uploads/2019/10/SENSEX_NSE_nifty_BSE_Stock-market-1019x573.jpg",
+        "publishedAt": "2022-02-28T06:30:34Z",
+        "content": "Jefferies initiates coverage on auto financiers, Cholamandalam Finance top pick\r\nAccording to the brokerage, auto financiers can gain from improving loan growth and easing asset quality pressures. Je… [+708 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Carandbike.com"
+        },
+        "author": "Pratik Rakshit",
+        "title": "Skoda Slavia 1-litre Petrol Launched In India, Prices Begin At Rs. 10.69 Lakh - carandbike",
+        "description": "Available in three variants- Active, Ambition, and Style, with two transmission options, the new Skoda Slavia is developed on the MQB-A0-IN platform like the Skoda Kushaq SUV that was launched in 2021.",
+        "url": "https://www.carandbike.com/news/skoda-slavia-1-litre-petrol-launched-in-india-prices-begin-at-rs-10-69-lakh-2793961",
+        "urlToImage": "https://c.ndtvimg.com/2022-02/he0o79p_skoda-slavia_625x300_28_February_22.jpg",
+        "publishedAt": "2022-02-28T06:06:16Z",
+        "content": "Skoda Auto India launched the all-new Skoda Slavia 1.0L TSI sedan starting at ₹ 10.69 lakh and going up to ₹ 15.39 lakh for the top-spec trim. You can read Ameya's first drive review of the Skoda Sla… [+3174 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Bollyinside.com"
+        },
+        "author": null,
+        "title": "Lunar Alignment February 2022 LIVE – Tips for viewing Mars TONIGHT and what other planets you can see without a telescope - BollyInside",
+        "description": "Even though the moon does not become blue in color, the phrase “blue moon” has gained popularity in recent years to denote the second full moon in a",
+        "url": "https://www.bollyinside.com/news/lunar-alignment-february-2022-live-tips-for-viewing-mars-tonight-and-what-other-planets-you-can-see-without-a-telescope",
+        "urlToImage": "https://www.bollyinside.com/wp-content/uploads/2021/12/Elon-Musk-rejects-mounting-criticism-that-his-satellites-are-obstructing.png",
+        "publishedAt": "2022-02-28T05:58:22Z",
+        "content": "Even though the moon does not become blue in color, the phrase blue moon has gained popularity in recent years to denote the second full moon in a calendar month. The black moon in April is the polar… [+761 chars]"
+      }
+    ]
+  }
